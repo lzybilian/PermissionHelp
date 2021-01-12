@@ -1,6 +1,17 @@
 # PermissionHelp
 权限申请帮助
-
+  依赖：
+  Add it in your root build.gradle at the end of repositories:
+  allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+  Add the dependency
+  dependencies {
+	        implementation 'com.github.lzybilian:PermissionHelp:1.01'
+  }
 使用示例
 
    if (!PermissionsHelper.getInstance(this).checkPermission(this, Manifest.permission.WRITE_EXTERNAL_STORAGE)) {
