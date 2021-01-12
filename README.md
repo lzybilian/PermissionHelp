@@ -1,5 +1,5 @@
 # PermissionHelp
-权限申请帮助  
+权限申请帮助   当初推这个库主要是为了尝试在github上创建自己可以维护的库，并在后续的项目中更加快速的使用。  
 依赖：  
   
  	Add it in your root build.gradle at the end of repositories:  
